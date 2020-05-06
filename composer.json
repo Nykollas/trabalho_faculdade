@@ -1,0 +1,21 @@
+{
+    "name": "projetos/tasks",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Angelo Mesquita",
+            "email": "angelo.mesquita@ifsuldeminas.edu.br"
+        }
+    ],
+    "scripts":{
+	"serve":"php -S 0.0.0.0:8080 -t public/ index.php"
+     },
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4" : {
+            "App\\" : "App/",
+            "SI\\" : "vendor/SI"
+        }
+    }
+}
