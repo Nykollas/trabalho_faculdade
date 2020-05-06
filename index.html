@@ -1,0 +1,148 @@
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<p>Gerenciador de tarefas</p>
+	</header>
+	<div class="form-container">
+		<form class="form">
+			<label for="name"><p>Nome</p></label>
+			<input id="name" type="text" placeholder="Digite o nome do usuário">
+			</input>
+			<label for="name"><p>Descrição ( Opcional )</p></label>
+			<textarea id="name" type="text" placeholder="Digite o nome do usuário">
+			</textarea>
+			<label for="name"><p>Prazo ( Opcional )</p></label>
+			<input id="name" type="text" placeholder="Digite o prazo da tarefa">
+			</input>
+			<p class="title">Prioridade</p>
+
+			<div class="option">
+				<input type="radio" name="option" id="low" value="male">
+				<label for="male"><p>Baixa</p></label>
+
+			</div>
+			<div class="option">
+				<input type="radio" name="option" id="average" value="female">
+				<label for="female"><p>Média</p></label>
+			</div>
+			<div class="option">
+				<input type="radio" name="option" id="high" value="other">
+				<label for="other"><p>Alta</p></label>
+			</div>
+			<p class="title">Tarefa Concluída</p>
+			<div class="option">
+				<input type="checkbox" name="option" id="high" value="other">
+				<label for="other"><p>Sim</p></label>
+			</div>
+			<button class="submit"><p>Cadastrar</p></button>
+		</form>
+		<table>
+			<tr>
+				<th>
+					<p>Nome</p>
+				</th>
+				<th id="header-descr-cell">
+					<p>Descrição</p>
+				</th>
+				<th>
+					<p>Prazo</p>
+				</th>
+				<th>
+					<p>Prioridade</p>
+				<th>
+					<p>Concluída</p>
+				</th>
+				<th>
+					<p>Opções</p>
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<p>Tarefa 1<p>
+				</td>
+				<td class="descr-cell">
+					<p>Criar banco de dados <p>
+				</td>
+				<td>
+					<p>12/10/2018<p>
+				</td>
+				<td>
+					<p>Alta</p>
+				</td>
+				<td>
+					<p>Sim</p>
+				</td>
+				<td id="options-td">
+					<a href="#">Editar</a>|<a href="#">Excluir</a>
+				</td>
+			</tr>
+			<tr class="gray">
+				<td>
+					<p>Tarefa 1<p>
+				</td>
+				<td class="descr-cell">
+					<p>Modelar banco de dados <p>
+				</td>
+				<td>
+					<p>12/10/2018<p>
+				</td>
+				<td>
+					<p>Alta</p>
+				</td>
+				<td>
+					<p>Não</p>
+				</td>
+				<td id="options-td">
+					<a href="#">Editar</a>|<a href="#">Excluir</a>
+				</td>
+			</tr>
+			<tr >
+				<td>
+					<p>Tarefa 1<p>
+				</td>
+				<td class="descr-cell">
+					<p>Criar usuários <p>
+				</td>
+				<td>
+					<p>12/10/2018<p>
+				</td>
+				<td>
+					<p>Alta</p>
+				</td>
+				<td>
+					<p>Não</p>
+				</td>
+				<td id="options-td">
+					<a href="#">Editar</a>|<a href="#">Excluir</a>
+				</td>
+			</tr>
+			<tr class="gray">
+				<td>
+					<p>Tarefa 1<p>
+				</td>
+				<td class="descr-cell">
+					<p>Criar primeira tabela<p>
+				</td>
+				<td>
+					<p>12/10/2018<p>
+				</td>
+				<td>
+					<p>Alta</p>
+				</td>
+				<td>
+					<p>Sim</p>
+				</td>
+				<td id="options-td">
+					<a href="#">Editar</a>|<a href="#">Excluir</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+
+</html>
